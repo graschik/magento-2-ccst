@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <checkout>
+            <options>
+                <steps_config>
+                    <steps_title>
+                        <item1>
+                            <code>shipping</code>
+                            <title>Shipping</title>
+                        </item1>
+                        <item2>
+                            <code>payment</code>
+                            <title><![CDATA[Review & Payments]]></title>
+                        </item2>
+                    </steps_title>
+                </steps_config>
+            </options>
+        </checkout>
+    </default>
+</config>
